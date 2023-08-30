@@ -1,20 +1,18 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
     javascript,
-    typescript,
     html,
     css,
+    python,
+    java,
+    Cprogramming,
+    flutter,
+    dart,
+    mysql,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
     GE,
     LRS,
     GSA,
@@ -22,7 +20,6 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -46,6 +43,22 @@ import {
   
   const technologies = [
     {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "C",
+      icon: Cprogramming,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -54,48 +67,32 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Flutter",
+      icon: flutter,
+    },
+    {
+      name: "Dart",
+      icon: dart,
+    },
+    {
+      name: "MySQL",
+      icon: mysql,
     },
     {
       name: "MongoDB",
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   

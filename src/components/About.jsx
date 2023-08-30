@@ -25,10 +25,10 @@ const About = () => {
       >
         I'm an aspiring software engineerer with experience front-end, back-end,
         and mobile development. Alongside development work I also have experience
-        in data science and information technology. Below are some of the languages
-        and technologies that I'm familiar with. Keep scrolling to view my experience
-        and what projects I've worked on If you spot a bug in my website feel free 
-        to shoot me an email.
+        in data science and maintaining IT systems. Keep scrolling to view my experience
+        and what projects I've worked on. If you spot a bug in my website feel free 
+        to shoot me an email. Below are some of the languages and technologies that I'm 
+        familiar with.
       </motion.p>
     </>
   );
