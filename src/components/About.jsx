@@ -9,29 +9,6 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
-    <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
-    >
-      <div
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
-      >
-        <img
-          src={icon}
-          alt='web-development'
-          className='w-16 h-16 object-contain'
-        />
-
-        <h3 className='text-white text-[20px] font-bold text-center'>
-          {title}
-        </h3>
-      </div>
-    </motion.div>
   </Tilt>
 );
 
@@ -49,16 +26,11 @@ const About = () => {
       >
         I'm an aspiring software engineerer with experience front-end, back-end,
         and mobile development. Alongside development work I also have experience
-        in data science and information technology. Keep scrolling to see my experience
-        and what languages I'm familiar with! If you spot a bug in my website feel free 
+        in data science and information technology. Below are some of the languages
+        and technologies that I'm familiar with. Keep scrolling to view my experience
+        and what projects I've worked on If you spot a bug in my website feel free 
         to shoot me an email.
       </motion.p>
-
-      <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
-      </div>
     </>
   );
 };
