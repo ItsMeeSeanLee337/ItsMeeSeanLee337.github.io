@@ -24,6 +24,7 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import LRS from "./company/LRS.png";
+import rutgers from "./company/rutgers.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -56,6 +57,7 @@ export {
   shopify,
   LRS,
   tesla,
+  rutgers,
   carrent,
   jobit,
   tripguide,
