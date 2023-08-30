@@ -23,9 +23,11 @@ import LRS from "./company/LRS.png";
 import rutgers from "./company/rutgers.png";
 import GSA from "./company/GSA.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import GSAmapproject from "./GSAmapproject.png"
+import PennaProject from "./PennaProject.png"
+import Photo from "./Photo.png"
+import Chess from "./Chess.png"
+import NewBeginnings from "./NewBeginnings.png"
 
 export {
   logo,
@@ -50,7 +52,9 @@ export {
   LRS,
   GSA,
   rutgers,
-  carrent,
-  jobit,
-  tripguide,
+  GSAmapproject,
+  PennaProject,
+  Photo,
+  Chess,
+  NewBeginnings
 };

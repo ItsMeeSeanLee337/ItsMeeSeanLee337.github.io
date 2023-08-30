@@ -16,9 +16,11 @@ import {
     LRS,
     GSA,
     rutgers,
-    carrent,
-    jobit,
-    tripguide,
+    GSAmapproject,
+    PennaProject,
+    Photo,
+    Chess,
+    NewBeginnings
   } from "../assets";
   
   export const navLinks = [
@@ -165,7 +167,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: jobit,
+      image: Chess,
       source_code_link: "https://github.com/ItsMeeSeanLee337/Android",
     },
     {
@@ -190,7 +192,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: tripguide,
+      image: Photo,
       source_code_link: "https://github.com/ItsMeeSeanLee337/Photos",
     },
     {
@@ -223,7 +225,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: Photo,
       source_code_link: "https://github.com/ItsMeeSeanLee337/ItsMeeSeanLee337.github.io",
     },
     {
@@ -248,7 +250,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: tripguide,
+      image: NewBeginnings,
       source_code_link: "https://github.com/Enactus-New-Beginnings/mobile-app-flutter",
     },
     {
@@ -273,7 +275,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: tripguide,
+      image: GSAmapproject,
       source_code_link: "https://github.com/ItsMeeSeanLee337/Gym_explorer_map",
     },
     {
@@ -294,7 +296,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: tripguide,
+      image: PennaProject,
       source_code_link: "https://github.com/ItsMeeSeanLee337/CS_336_Code/tree/main/Penna%20Project",
     },
   ];
