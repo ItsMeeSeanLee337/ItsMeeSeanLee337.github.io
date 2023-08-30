@@ -17,9 +17,8 @@ import {
     docker,
     meta,
     LRS,
-    tesla,
+    GSA,
     rutgers,
-    shopify,
     carrent,
     jobit,
     tripguide,
@@ -102,7 +101,7 @@ import {
   
   const experiences = [
     {
-      title: "Systems Engineering Inter",
+      title: "Systems Engineering Intern",
       company_name: "Levi, Ray, & Shoup, Inc.",
       icon: LRS,
       iconBg: "#383E56",
@@ -126,16 +125,15 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Software Engineer/ Data Science Internship",
+      company_name: "Ground Standard Agency",
+      icon: GSA,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "May 2022 - Oct 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Utilized Python to clean data from 40,000 businesses to filter relevant information for the agency’s marketing team",
+        "In charge of developing three data visualizations utilizing R aimed at showcasing the business growth within our database across the Eastern, Central, and Western regions of the United States.",
+        "Tasked with redesigning a mapping website for an improved user experience and allowing new users to view locations and class times of businesses utilizing the Agency’s software",
       ],
     },
     {

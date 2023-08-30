@@ -22,10 +22,9 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
 import LRS from "./company/LRS.png";
 import rutgers from "./company/rutgers.png";
-import tesla from "./company/tesla.png";
+import GSA from "./company/GSA.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -54,9 +53,8 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
   LRS,
-  tesla,
+  GSA,
   rutgers,
   carrent,
   jobit,
