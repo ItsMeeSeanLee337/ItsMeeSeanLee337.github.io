@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { services } from "../constants";
+import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
@@ -46,10 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm an aspiring software engineere skilled in Java, Python, C, and 
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm an aspiring software engineerer with experience front-end, back-end,
+        and mobile development. Alongside development work I also have experience
+        in data science and information technology. Keep scrolling to see my experience
+        and what languages I'm familiar with! If you spot a bug in my website feel free 
+        to shoot me an email.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
@@ -61,4 +63,4 @@ const About = () => {
   );
 };
 
-export default About
+export default SectionWrapper(About, "about");
