@@ -21,7 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
+import GE from "./company/GE.png";
 import LRS from "./company/LRS.png";
 import rutgers from "./company/rutgers.png";
 import GSA from "./company/GSA.png";
@@ -52,7 +52,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
+  GE,
   LRS,
   GSA,
   rutgers,

@@ -15,7 +15,7 @@ import {
     git,
     figma,
     docker,
-    meta,
+    GE,
     LRS,
     GSA,
     rutgers,
@@ -137,44 +137,16 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Computer Science Instructor",
+      company_name: "Concorde Education",
+      icon: GE,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jul 2022 - Aug 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Taught computer science principles and Python basics to students from 7 - 11 years old in a classroom setting of 15+ students in a format of 4 lessons for 10 weeks",
+        "Prepared 40 reusable lesson plans that challenged students to use problem solving and reasoning skills while also engaging them and teaching valuable computer science skills",
+        "Participated in meetings with 3 other instructors to coordinate lesson plans and integrate skills learned in other classes",
       ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
@@ -244,4 +216,4 @@ import {
     },
   ];
   
-  export { technologies, experiences, testimonials, projects };
+  export { technologies, experiences, projects };
