@@ -16,7 +16,7 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+    LRS,
     tesla,
     shopify,
     carrent,
@@ -101,20 +101,19 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Systems Engineering Inter",
+      company_name: "Levi, Ray, & Shoup, Inc.",
+      icon: LRS,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "May 2023 - August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed small programs using Python, CSS, and Powershell to integrate LRS products into clients’ business environments and create custom splash pages.",
+        "Supported the Enterprise Output Management (EOM) sales team by understanding and answering technical questions for prospective customers",
+        "Responsible for rewriting outdated documentation and recording guide videos to act as a guide for onboarding new users and to demonstrate the capabilities of LRS software",
       ],
     },
     {
-      title: "React Native Developer",
+      title: "IT Support Technician",
       company_name: "Tesla",
       icon: tesla,
       iconBg: "#E6DEDD",
