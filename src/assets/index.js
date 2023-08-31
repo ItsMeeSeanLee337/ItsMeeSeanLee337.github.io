@@ -1,5 +1,9 @@
 import logo from "./logo.svg";
 import github from "./github.png";
+import github2 from "./Github2.png";
+import gmail from "./gmail.png";
+import LinkedIn from "./LinkedIn.png";
+import Handshake from "./handshake.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -32,6 +36,10 @@ import NewBeginnings from "./NewBeginnings.png"
 export {
   logo,
   github,
+  github2,
+  gmail,
+  LinkedIn,
+  Handshake,
   menu,
   close,
   css,

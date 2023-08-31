@@ -152,7 +152,7 @@ import {
     {
       name: "Android Chess App",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "The Android Chess App is exactly what it says: a mobile application that allows you to play chess either by yourself or with a friend. A 2D representation of the board is created with corresponding pieces in the correct colors. All functionalities such as movement of pieces, choosing to resign/draw, and undoing past movements is handled by touch. This app also allows for you to play against an AI and record your previous games.",
       tags: [
         {
           name: "Java",
@@ -173,7 +173,7 @@ import {
     {
       name: "Photo Library Replica App",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Just like Google Photos and Apple iCloud, The Photo Library app allows you to store all your favorite memories and create new albums. An admin account allows for for users to be created and deleted. Non-admin users can create albums, add photos, and associate tags/locations with images. Photos, users, and albums are also saved and serialized upon closing the app. An initial GUI storyboard and UML diagram was created to set a roadmap for this project.",
       tags: [
         {
           name: "Java",
@@ -198,14 +198,14 @@ import {
     {
       name: "Personal Portfolio",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "My personal portfolio website that you are on right now that was developed using HTML, JavaScript, and CSS. To allow for interactivity the React library was used in this project. The 3D models and animations are courtesy of the Three.JS library. Stylization of the website utilized the Tailwind CSS framework. This website is still ongoing and being updated freqeuntly.",
       tags: [
         {
-          name: "JavaScript",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "HTML",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
         {
@@ -231,7 +231,7 @@ import {
     {
       name: "Enactus: New Beginnings Mobile App",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "As a volunteer mobile application developer for Enactus: New Beginnings, I helped create the profile page that users will first see when logging in. The New Beginnings mobile app helps formerly incarcerated individuals secure employment, establish strong relationships with mentors, and gain access to local resources in order to ease their transition from prison. The application was developed using Flutter and the Dart programming language in Android Studio",
       tags: [
         {
           name: "Dart",
@@ -256,14 +256,14 @@ import {
     {
       name: "Ground Standard Agency Explorer Map",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Using HTML, JavaScript, and CSS, I redesigned the Ground Standard Agency Explorer map. All bugs and broken links from the original explorer map are fixed, along with changing formating, text alignment, and incorrect logos. The explorer map allows for users to view which martial arts gyms are supported by Ground Standard Agency. Users can also see class times, find directions, and schedule an available free class for corresponding gyms. ",
       tags: [
         {
-          name: "JavaScript",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "HTML",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
         {
@@ -281,7 +281,7 @@ import {
     {
       name: "Election Database API Project",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Using election data for the 2020 presidential election, I created utilized MySQL script to build multiple API calls. User are able to use these API calls to compare election data between the two presidential candidates, specifically in regards to vote count and leading precincts. Users are able to see which candidate had the most votes in each precinct, compare timestamps to view when voting activity was highest, and view when precincts were flipped to support the leading candidate.",
       tags: [
         {
           name: "MySQL",

@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        // The HEX codes below designate the colors for the entire website
         primary: "#050816",
         secondary: "#aaa6c3",
         tertiary: "#151030",
