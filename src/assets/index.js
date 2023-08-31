@@ -32,6 +32,7 @@ import PennaProject from "./PennaProject.png"
 import Photo from "./Photo.png"
 import Chess from "./Chess.png"
 import NewBeginnings from "./NewBeginnings.png"
+import portfolio from "./portfolio.png"
 
 export {
   logo,
@@ -64,5 +65,6 @@ export {
   PennaProject,
   Photo,
   Chess,
-  NewBeginnings
+  NewBeginnings,
+  portfolio
 };

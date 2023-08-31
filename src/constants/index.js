@@ -20,7 +20,8 @@ import {
     PennaProject,
     Photo,
     Chess,
-    NewBeginnings
+    NewBeginnings,
+    portfolio
   } from "../assets";
   
   export const navLinks = [
@@ -198,7 +199,7 @@ import {
     {
       name: "Personal Portfolio",
       description:
-        "My personal portfolio website that you are on right now that was developed using HTML, JavaScript, and CSS. To allow for interactivity the React library was used in this project. The 3D models and animations are courtesy of the Three.JS library. Stylization of the website utilized the Tailwind CSS framework. This website is still ongoing and being updated freqeuntly.",
+        "My personal portfolio website that you are on right now, developed using HTML, JavaScript, and CSS. To allow for interactivity the React library was used in this project. The 3D models and animations are courtesy of the Three.JS library. Stylization of the website utilized the Tailwind CSS framework. This website is still ongoing and being updated freqeuntly.",
       tags: [
         {
           name: "HTML",
@@ -225,7 +226,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: Photo,
+      image: portfolio,
       source_code_link: "https://github.com/ItsMeeSeanLee337/ItsMeeSeanLee337.github.io",
     },
     {
