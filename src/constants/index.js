@@ -199,7 +199,7 @@ import {
     {
       name: "Personal Portfolio",
       description:
-        "My personal portfolio website that you are on right now, developed using HTML, JavaScript, and CSS. To allow for interactivity the React library was used in this project. The 3D models and animations are courtesy of the Three.JS library. Stylization of the website utilized the Tailwind CSS framework. This website is still ongoing and being updated freqeuntly.",
+        "My personal portfolio website that you are on right now, developed using HTML, JavaScript, and CSS. To allow for interactivity the React library was used in this project. The 3D models and animations are courtesy of the Three.JS library. Stylization of the website utilized the Tailwind CSS framework. This website is still ongoing and being updated frequently.",
       tags: [
         {
           name: "HTML",
