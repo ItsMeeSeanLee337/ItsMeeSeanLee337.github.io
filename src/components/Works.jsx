@@ -79,7 +79,7 @@ const Works = () => {
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-white text-[17px] max-w-3xl leading-[30px]'
+          className='mt-3 text-white text-[17px] max-w-3 leading-[30px]'
         >
           These are some of my favorite projects that I have worked on during my journey to become 
           a full time software engineer. Each of these projects demonstrate my capability with 

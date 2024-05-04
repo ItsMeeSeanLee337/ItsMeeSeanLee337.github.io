@@ -21,6 +21,11 @@ import Cprogramming from "./tech/Cprogramming.png";
 import flutter from "./tech/flutter.png";
 import dart from "./tech/dart.png";
 import mysql from "./tech/MySQL.png";
+import Cypress from "./tech/Cypress.png";
+import Jest from "./tech/Jest.png";
+import JUnit from "./tech/JUNIT.png";
+import ThreeJS from "./tech/threejs.png";
+import Linux from "./tech/Linux.png";
 
 import GE from "./company/GE.png";
 import LRS from "./company/LRS.png";
@@ -28,7 +33,7 @@ import rutgers from "./company/rutgers.png";
 import GSA from "./company/GSA.png";
 
 import GSAmapproject from "./GSAmapproject.png"
-import PennaProject from "./PennaProject.png"
+import NutriProproject from "./NutriPro.png"
 import Photo from "./Photo.png"
 import Chess from "./Chess.png"
 import NewBeginnings from "./NewBeginnings.png"
@@ -57,12 +62,17 @@ export {
   flutter,
   dart,
   mysql,
+  Cypress,
+  Jest,
+  JUnit,
+  ThreeJS,
+  Linux,
   GE,
   LRS,
   GSA,
   rutgers,
   GSAmapproject,
-  PennaProject,
+  NutriProproject,
   Photo,
   Chess,
   NewBeginnings,

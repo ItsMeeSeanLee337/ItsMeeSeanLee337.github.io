@@ -12,12 +12,17 @@ import {
     tailwind,
     mongodb,
     git,
+    Cypress,
+    Jest,
+    JUnit,
+    ThreeJS,
+    Linux,
     GE,
     LRS,
     GSA,
     rutgers,
     GSAmapproject,
-    PennaProject,
+    NutriProproject,
     Photo,
     Chess,
     NewBeginnings,
@@ -93,8 +98,8 @@ import {
       icon: mongodb,
     },
     {
-      name: "git",
-      icon: git,
+      name: "ThreeJS",
+      icon: ThreeJS,
     },
   ];
   
@@ -151,6 +156,35 @@ import {
   
   const projects = [
     {
+      name: "NutriPro Web Application",
+      description:
+        "Using election data for the 2020 presidential election, I created utilized MySQL script to build multiple API calls. User are able to use these API calls to compare election data between the two presidential candidates, specifically in regards to vote count and leading precincts. Users are able to see which candidate had the most votes in each precinct, compare timestamps to view when voting activity was highest, and view when precincts were flipped to support the leading candidate.",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "APIs",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "React",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Git",
+          color: "gray-text-gradient",
+        },
+        {
+          name: "Agile",
+          color: "gray-text-gradient",
+        },
+      ],
+      image: NutriProproject,
+      source_code_link: "https://github.com/ItsMeeSeanLee337/Software-Engineering-Project",
+    },
+    {
       name: "Android Chess App",
       description:
         "The Android Chess App is exactly what it says: a mobile application that allows you to play chess either by yourself or with a friend. A 2D representation of the board is created with corresponding pieces in the correct colors. All functionalities such as movement of pieces, choosing to resign/draw, and undoing past movements is handled by touch. This app also allows for you to play against an AI and record your previous games.",
@@ -172,34 +206,9 @@ import {
       source_code_link: "https://github.com/ItsMeeSeanLee337/Android",
     },
     {
-      name: "Photo Library Replica App",
-      description:
-        "Just like Google Photos and Apple iCloud, The Photo Library app allows you to store all your favorite memories and create new albums. An admin account allows for for users to be created and deleted. Non-admin users can create albums, add photos, and associate tags/locations with images. Photos, users, and albums are also saved and serialized upon closing the app. An initial GUI storyboard and UML diagram was created to set a roadmap for this project.",
-      tags: [
-        {
-          name: "Java",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Git",
-          color: "gray-text-gradient",
-        },
-        {
-          name: "UML",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "VS Code",
-          color: "green-text-gradient",
-        },
-      ],
-      image: Photo,
-      source_code_link: "https://github.com/ItsMeeSeanLee337/Photos",
-    },
-    {
       name: "Personal Portfolio",
       description:
-        "My personal portfolio website that you are on right now, developed using HTML, JavaScript, and CSS. To allow for interactivity the React library was used in this project. The 3D models and animations are courtesy of the Three.JS library. Stylization of the website utilized the Tailwind CSS framework. This website is still ongoing and being updated freqeuntly.",
+        "My personal portfolio website that you are on right now, developed using HTML, JavaScript, and CSS. To allow for interactivity the React library was used in this project. The 3D models and animations are courtesy of the Three.JS library. Stylization of the website utilized the Tailwind CSS framework. This website is still ongoing and being updated regularly.",
       tags: [
         {
           name: "HTML",
@@ -228,6 +237,31 @@ import {
       ],
       image: portfolio,
       source_code_link: "https://github.com/ItsMeeSeanLee337/ItsMeeSeanLee337.github.io",
+    },
+    {
+      name: "Photo Library Replica App",
+      description:
+        "Just like Google Photos and Apple iCloud, The Photo Library app allows you to store all your favorite memories and create new albums. An admin account allows for for users to be created and deleted. Non-admin users can create albums, add photos, and associate tags/locations with images. Photos, users, and albums are also saved and serialized upon closing the app. An initial GUI storyboard and UML diagram was created to set a roadmap for this project.",
+      tags: [
+        {
+          name: "Java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Git",
+          color: "gray-text-gradient",
+        },
+        {
+          name: "UML",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "VS Code",
+          color: "green-text-gradient",
+        },
+      ],
+      image: Photo,
+      source_code_link: "https://github.com/ItsMeeSeanLee337/Photos",
     },
     {
       name: "Enactus: New Beginnings Mobile App",
@@ -278,28 +312,7 @@ import {
       ],
       image: GSAmapproject,
       source_code_link: "https://github.com/ItsMeeSeanLee337/Gym_explorer_map",
-    },
-    {
-      name: "Election Database API Project",
-      description:
-        "Using election data for the 2020 presidential election, I created utilized MySQL script to build multiple API calls. User are able to use these API calls to compare election data between the two presidential candidates, specifically in regards to vote count and leading precincts. Users are able to see which candidate had the most votes in each precinct, compare timestamps to view when voting activity was highest, and view when precincts were flipped to support the leading candidate.",
-      tags: [
-        {
-          name: "MySQL",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "APIs",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "MySQL Workbench",
-          color: "green-text-gradient",
-        },
-      ],
-      image: PennaProject,
-      source_code_link: "https://github.com/ItsMeeSeanLee337/CS_336_Code/tree/main/Penna%20Project",
-    },
+    }
   ];
   
   export { technologies, experiences, projects };
