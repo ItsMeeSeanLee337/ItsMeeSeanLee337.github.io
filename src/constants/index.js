@@ -111,9 +111,9 @@ import {
       iconBg: "#FFFFFF",
       date: "May 2023 - August 2023",
       points: [
-        "Developed small programs using Python, CSS, and Powershell to integrate LRS products into clients’ business environments and create custom splash pages.",
-        "Supported the Enterprise Output Management (EOM) sales team by understanding and answering technical questions for prospective customers",
-        "Responsible for rewriting outdated documentation and recording guide videos to act as a guide for onboarding new users and to demonstrate the capabilities of LRS software",
+        "Developed and implemented a full stack application using Python that integrates with an RFID scanner to verify employee badges against a company dataframe.",
+        "Front-end GUI development utilizing CSS to modernize the look and feel of company applications.",
+        "Responsible for updating technical documentation to keep up with the development cycle. Recorded instructional videos for training new users and showcase the capabilities of company software.",
       ],
     },
     {
@@ -123,9 +123,9 @@ import {
       iconBg: "#FFFFFF",
       date: "September 2021 - May 2023",
       points: [
-        "Responsible for responding to and troubleshooting urgent technical and network issues within the Business School",
-        "Accustomed to handling service requests for Windows, Linux, Android, Apple devices",
-        "Responsible for conducting computer system maintenance checks every week and replacing defective hardware",
+        "Provided IT assistance for Business school building, troubleshooting issues ranging from Firmware reimaging to resolve printing issues.",
+        "Worked with an inhouse ticket system to report completed and in-progress service requests.  Escalated to higher support if needed.",
+        "Employed  knowledge for various OS’s (Windows, Linux, Android, iOS) to resolve hardware and software issues.",
       ],
     },
     {
@@ -135,9 +135,9 @@ import {
       iconBg: "#FFFFFF",
       date: "May 2022 - Oct 2022",
       points: [
-        "Utilized Python to clean data from 40,000 businesses to filter relevant information for the agency’s marketing team",
-        "In charge of developing three data visualizations utilizing R aimed at showcasing the business growth within our database across the Eastern, Central, and Western regions of the United States.",
-        "Tasked with redesigning a mapping website for an improved user experience and allowing new users to view locations and class times of businesses utilizing the Agency’s software",
+        "Developed an internal application with Python and Pandas library to clean data from 40,000 businesses to filter relevant information for the agency’s marketing team.",
+        "Used R programming language to create data visualization around the datasource.  Analyze provided data to showcase the growth in business across different regions (Eastern, Central, Western of United State).",
+        "Developed Front-end UI for internal mapping website using JavaScript, HTML, and CSS for an improved user experience and allowing new users to view locations and class times of businesses utilizing the Agency’s software.",
       ],
     },
     {
@@ -147,9 +147,9 @@ import {
       iconBg: "#FFFFFF",
       date: "Jul 2022 - Aug 2022",
       points: [
-        "Taught computer science principles and Python basics to students from 7 - 11 years old in a classroom setting of 15+ students in a format of 4 lessons for 10 weeks",
-        "Prepared 40 reusable lesson plans that challenged students to use problem solving and reasoning skills while also engaging them and teaching valuable computer science skills",
-        "Participated in meetings with 3 other instructors to coordinate lesson plans and integrate skills learned in other classes",
+        "Taught computer science fundamentals and Python basics to students from 7 - 11 years old in a classroom setting of 15+ students in a format of 4 lessons for 10 weeks.",
+        "Prepared presentations to communicate lesson plans to fellow instructors and integrate skills across different classes.",
+        "Prepared 40 reusable lesson plans that challenged students to use problem solving and reasoning skills while also teaching computer logic, basic algorithms, and data structures.",
       ],
     },
   ];
@@ -158,7 +158,7 @@ import {
     {
       name: "NutriPro Web Application",
       description:
-        "Using election data for the 2020 presidential election, I created utilized MySQL script to build multiple API calls. User are able to use these API calls to compare election data between the two presidential candidates, specifically in regards to vote count and leading precincts. Users are able to see which candidate had the most votes in each precinct, compare timestamps to view when voting activity was highest, and view when precincts were flipped to support the leading candidate.",
+        "Nutritional website that was built in React and utilizes the Spoonacular API. If you are wondering what to cook using the ingredients inside your fridge, our website can help you!. This website also has convenience features such as a meal planner, nutritional information search, and ingredient replacement search. All the recipes and nutritional information are taken from the Spoonacular API, user information is stored in a mariaDB server. Unit and system testing was conducted using Cypress, Postman, and Jest",
       tags: [
         {
           name: "JavaScript",
