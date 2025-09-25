@@ -31,13 +31,16 @@ import GE from "./company/GE.png";
 import LRS from "./company/LRS.png";
 import rutgers from "./company/rutgers.png";
 import GSA from "./company/GSA.png";
+import Dematic from "./company/Dematic.png";
+import Outlier from "./company/Outlier.png";
 
-import GSAmapproject from "./GSAmapproject.png"
-import NutriProproject from "./NutriPro.png"
-import Photo from "./Photo.png"
-import Chess from "./Chess.png"
-import NewBeginnings from "./NewBeginnings.png"
-import portfolio from "./portfolio.png"
+import GSAmapproject from "./GSAmapproject.png";
+import NutriProproject from "./NutriPro.png";
+import Photo from "./Photo.png";
+import Chess from "./Chess.png";
+import NewBeginnings from "./NewBeginnings.png";
+import portfolio from "./portfolio.png";
+import EDC from "./EDC.png";
 
 export {
   logo,
@@ -70,11 +73,14 @@ export {
   GE,
   LRS,
   GSA,
+  Dematic,
+  Outlier,
   rutgers,
   GSAmapproject,
   NutriProproject,
   Photo,
   Chess,
   NewBeginnings,
-  portfolio
+  portfolio,
+  EDC
 };

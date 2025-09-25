@@ -20,13 +20,16 @@ import {
     GE,
     LRS,
     GSA,
+    Dematic,
+    Outlier,
     rutgers,
     GSAmapproject,
     NutriProproject,
     Photo,
     Chess,
     NewBeginnings,
-    portfolio
+    portfolio,
+    EDC
   } from "../assets";
   
   export const navLinks = [
@@ -105,6 +108,30 @@ import {
   
   const experiences = [
     {
+      title: "Software Commissioning Engineer",
+      company_name: "Dematic",
+      icon: Dematic,
+      iconBg: "#FFFFFF",
+      date: "July 2024 - Present",
+      points: [
+        "Client-facing tester throughout all phases of end-to-end, integration, and acceptance testing; executing test procedures to identify issue and verify resolutions to support system readiness and project handover.",
+        "Partnered with cross-functional teams to troubleshoot complex hardware and software integration issues, implementing effective solutions during live testing to maintain project continuity and meet acceptance criteria.",
+        "Documented all commissioning processes and defects found during testing and produced detailed reports used for process optimization and training through Jira and internal documentation software",
+      ],
+    },
+    {
+      title: "AI Code Evaluator",
+      company_name: "Outlier",
+      icon: Outlier,
+      iconBg: "#FFFFFF",
+      date: "June 2024 - July 2024",
+      points: [
+        "Developed complex generative AI prompts to evaluate model responses according to code correctness, efficiency, and adherence to software engineering standards.",
+        "Utilized a standardized rating system to categorize generative AI responses to software engineering prompts in Java and Python.",
+        "Corrected inaccurate outputs by leveraging custom REST APIs to analyze images, videos, and websites.",
+      ],
+    },
+    {
       title: "Systems Engineering Intern",
       company_name: "Levi, Ray, & Shoup, Inc.",
       icon: LRS,
@@ -136,7 +163,7 @@ import {
       date: "May 2022 - Oct 2022",
       points: [
         "Developed an internal application with Python and Pandas library to clean data from 40,000 businesses to filter relevant information for the agency’s marketing team.",
-        "Used R programming language to create data visualization around the datasource.  Analyze provided data to showcase the growth in business across different regions (Eastern, Central, Western of United State).",
+        "Used R programming language to create data visualization around the datasource.  Analyze provided data to showcase the growth in business across different regions (Eastern, Central, Western of United States).",
         "Developed Front-end UI for internal mapping website using JavaScript, HTML, and CSS for an improved user experience and allowing new users to view locations and class times of businesses utilizing the Agency’s software.",
       ],
     },
@@ -156,9 +183,34 @@ import {
   
   const projects = [
     {
+      name: "DLA Eastern Distribution Center Modernization Project",
+      description:
+        "The Eastern Distribution Center (EDC) modernization project is a large-scale initiative aimed at enhancing one of the largest defense distribution facilities in the U.S. This project integrates advanced warehouse management systems and automation technologies to improve operational efficiency, optimize logistics, and strengthen supply chain resilience. By upgrading infrastructure and streamlining workflows, the modernization effort ensures faster and more reliable distribution of critical supplies to support military and defense operations.",
+      tags: [
+        {
+          name: "Security+",
+          color: "gray-text-gradient",
+        },
+        {
+          name: "TestRail",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Jira",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Agile",
+          color: "gray-text-gradient",
+        },
+      ],
+      image: EDC,
+      source_code_link: "https://www.dla.mil/About-DLA/News/News-Article-View/Article/4183499/warehouse-modernization-efficiency-and-resilience-through-innovation/",
+    },
+    {
       name: "NutriPro Web Application",
       description:
-        "Nutritional website that was built in React and utilizes the Spoonacular API. If you are wondering what to cook using the ingredients inside your fridge, our website can help you!. This website also has convenience features such as a meal planner, nutritional information search, and ingredient replacement search. All the recipes and nutritional information are taken from the Spoonacular API, user information is stored in a mariaDB server. Unit and system testing was conducted using Cypress, Postman, and Jest",
+        "Nutritional website that was built in React and utilizes the Spoonacular API. If you are wondering what to cook using the ingredients inside your fridge, our website can help you! This website also has convenience features such as a meal planner, nutritional information search, and ingredient replacement search. All the recipes and nutritional information are taken from the Spoonacular API, user information is stored in a mariaDB server. Unit and system testing was conducted using Cypress, Postman, and Jest",
       tags: [
         {
           name: "JavaScript",

@@ -22,7 +22,7 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-        <h>If you're looking for a passionate and well-rounded developer, I'd be the perfect fit for your team! 
+        <h>If you're looking for a passionate and well-rounded Quality Assurance Engineer, I'd be the perfect fit for your team! 
           Click any of the following links to add me on the respective platform. If you spotted a bug in my website 
           or think a feature would make it more useable, feel free to send me an email!</h>
         <div className="mt-8 flex flex-col gap-6">
